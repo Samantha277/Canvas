@@ -13,6 +13,21 @@
     <link rel="stylesheet" href="css/styles.css">
 
     <title>Ristorante Con Fusion</title>
+
+    <style>
+    #image_container {
+    width: 100%;
+   
+    height: 930px;
+    }
+
+    #image_container img {
+        width: 100%;
+        height: 930px;
+        /* height: 110%; */
+        object-fit: cover;
+    }
+    </style>
 </head>
 
 <body>
@@ -32,6 +47,10 @@
             </div>
         </div>
     </nav>
+  
+        <div id="image_container" class="img-fluid">
+            <img src="images/carousel/sam.jpg" alt="picture">
+        </div>
 
 
     <header class="jumbotron">
@@ -122,12 +141,28 @@
            </div>
         </div>
     </footer>
+<script>
+(function() {
+    
+    var img = document.getElementById('image_container').firstChild;
+    img.onload = function() {
+        if(img.height > img.width) {
+            img.height = '100%';
+            img.width = 'auto';
+        }
+    };
+    
+}());
+    </script>
+
+
 <!-- JQuery first, then Popper.js, then Bootstrap.js-->
 <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
 <script src="node_modules/bootstrap/js/jquery-3.2.1.min.js"></script>
 <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
 <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
 
 
