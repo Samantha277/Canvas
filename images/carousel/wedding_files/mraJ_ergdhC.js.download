@@ -1,0 +1,8 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["Vu8fa"]); }
+
+__d("WebPixelRatio",["SiteData"],(function(a,b,c,d,e,f){a={get:function(){return b("SiteData").pr!=null&&b("SiteData").pr>0?b("SiteData").pr:window.devicePixelRatio||1}};e.exports=a}),null);
+__d("getCometProfileFeedUnitVariables",["WebPixelRatio"],(function(a,b,c,d,e,f){"use strict";e.exports=a;function a(a){return{UFI2CommentsProvider_commentsKey:a,feedLocation:"TIMELINE",feedbackSource:0,isComet:!0,privacySelectorRenderLocation:"COMET_STREAM",renderLocation:"timeline",scale:b("WebPixelRatio").get()}}}),null);
+__d("createGenericCompoundEntryPointBuilder",[],(function(a,b,c,d,e,f){"use strict";e.exports=a;function a(a,b){return function(c){return{getPreloadProps:function(a){return{entryPoints:c(a),extraProps:null,queries:b(a)}},root:a}}}}),null);
+__d("createContentAreaCompoundEntryPointBuilder",["createGenericCompoundEntryPointBuilder"],(function(a,b,c,d,e,f){"use strict";e.exports=a;function a(a,c){var d=b("createGenericCompoundEntryPointBuilder")(a,c);return function(a,b){var c={getPreloadProps:b,root:a};return d(function(a){return{contentEntryPoint:{entryPoint:c,entryPointParams:a}}})}}}),null);
+__d("SearchCometGlobalSearchTopTabRoot.entrypoint",["CometSearchResultsBase.entrypoint","JSResource"],(function(a,b,c,d,e,f){"use strict";a={getPreloadProps:b("CometSearchResultsBase.entrypoint").getPreloadProps,root:b("JSResource")("SearchCometGlobalSearchTopTabRoot.react").__setRef("SearchCometGlobalSearchTopTabRoot.entrypoint")};e.exports=a}),null);
+__d("JSResourceForInteraction",["JSResource"],(function(a,b,c,d,e,f){function a(a,c){return b("JSResource").call(null,a)}e.exports=a}),null);

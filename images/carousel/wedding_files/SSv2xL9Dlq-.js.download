@@ -1,0 +1,4 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["wbwcS"]); }
+
+__d("SearchCometGlobalSearchDefaultTabRoot.entrypoint",["CometSearchResultsBase.entrypoint","JSResource"],(function(a,b,c,d,e,f){"use strict";a={getPreloadProps:b("CometSearchResultsBase.entrypoint").getPreloadProps,root:b("JSResource")("SearchCometGlobalSearchDefaultTabRoot.react").__setRef("SearchCometGlobalSearchDefaultTabRoot.entrypoint")};e.exports=a}),null);
+__d("SearchCometGlobalSearchPlacesTabRoot.entrypoint",["CometSearchResultsBase.entrypoint","JSResource"],(function(a,b,c,d,e,f){"use strict";a={getPreloadProps:b("CometSearchResultsBase.entrypoint").getPreloadProps,root:b("JSResource")("SearchCometGlobalSearchPlacesTabRoot.react").__setRef("SearchCometGlobalSearchPlacesTabRoot.entrypoint")};e.exports=a}),null);

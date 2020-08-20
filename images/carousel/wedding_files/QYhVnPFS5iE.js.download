@@ -1,0 +1,4 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["PPiob"]); }
+
+__d("PageCometConsumerGroupsTabRootQuery$Parameters",[],(function(a,b,c,d,e,f){"use strict";a={kind:"PreloadableConcreteRequest",params:{id:"3582365045131278",metadata:{relayPreloadable:!0},name:"PageCometConsumerGroupsTabRootQuery",operationKind:"query",text:null}};e.exports=a}),null);
+__d("PageCometConsumerGroupsTabRoot.entrypoint",["JSResource","WebPixelRatio","buildCometSinglePageRoute.entrypoint","PageCometConsumerGroupsTabRootQuery$Parameters"],(function(a,b,c,d,e,f){"use strict";a=b("buildCometSinglePageRoute.entrypoint")(b("JSResource")("PageCometConsumerGroupsTabRoot.react").__setRef("PageCometConsumerGroupsTabRoot.entrypoint"),function(a){return{queries:{pageConsumerGroupsTabQueryReference:{parameters:b("PageCometConsumerGroupsTabRootQuery$Parameters"),variables:{pageID:a.routeProps.pageID,scale:b("WebPixelRatio").get()}}}}});e.exports=a}),null);
